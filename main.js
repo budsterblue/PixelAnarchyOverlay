@@ -1,5 +1,5 @@
 var overlay = document.getElementById("overlay");
-document.getElementById("gridbutton").addEventListener('change', (event) => {
+document.getElementById("overlaybutton").addEventListener('change', (event) => {
   if (event.target.checked) {
     overlay.style.visibility = "visible";
   } else {
