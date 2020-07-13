@@ -30,4 +30,4 @@ document.getElementById("offsetY").addEventListener('change', (event) => { overl
 
 // Scale
 //document.getElementById("scaleImg").addEventListener('change', (event) => { overlay.style.width = document.getElementById("scaleImg").value + "px"; });
-document.getElementById("scaleImg").addEventListener('input', (event) => { overlay.style.width = document.getElementById("scaleImg").value; });
+document.getElementById("scaleImg").addEventListener('input', (event) => { overlay.style.width = document.getElementById("scaleImg").value + "px"; });
