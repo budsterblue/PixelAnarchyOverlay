@@ -10,21 +10,23 @@
 #oversummary{
     outline: none;
 }
-/*#overlayButtonGroup{
-    display: block;
-}
-#updateImageGroup{
-    display: block;
-}
-#opacityGroup{
-    display: block;
-}
-#offsetGroup{
-    display: block;
-}*/
 #offsetX{
     width: 60px;
 }
 #offsetY{
     width: 60px;
+}
+#overlayfont{
+	font-family:'Comic Sans MS', cursive, sans-serif;
+}
+#overlaysummary{
+	outline: none;
+}
+#urlSelector{
+	width: 90%; 
+	height: 5%;
+	margin-top: 5%;
+}
+#fileSelector{
+	display: none;
 }

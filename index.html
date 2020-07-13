@@ -2,32 +2,27 @@
 <img id="overlay" src="https://cdn.discordapp.com/attachments/716027937262010410/731617506128560148/canvas.png"></img>
 
 <!-- Add this inside the <sidenav>-element-->
-<font style="font-family:'Comic Sans MS', cursive, sans-serif" color="white">
+<font color="white">
 	<details>
 	<summary id="overlaysummary">Overlay Options</summary>
-		<h2>Overlay</h2>
-		<br id="overlayButtonGroup">
-        		<h3>Image</h3>
-			<input id="overlaybutton" type="checkbox">
-			Toggle Overlay
-		</br>
-		<br id="updateImageGroup">
-	                <input id="fileSelector" type="file" accept="image/*">
-			<input id="urlSelector" type="text">
-		</br>
-		<br id="opacityGroup">
-			<h3>Opacity</h3>
-			<input id="opacity" type="range" class="slider" min="0" max="99" value="0">
-		</br>
-		<br id="offsetGroup">
-	        	<h3>Position</h3>
-			<input id="offsetX" type="number" placeholder="X">
-			<input id="offsetY" type="number" placeholder="Y">
-		</br>
-		<br id="scaleImgGroup">
-        		<h3>Scale</h3>
-			<input id="scaleImg" type="range" class="slider" min="1" max="100" value="0">
-		</br>
+		<br>
+		<input id="overlaybutton" type="checkbox">
+		Toggle Overlay
+		<br>
+		<h3>Image</h3>
+	        <input id="fileSelector" type="file" accept="image/*">
+		<br>
+		<input id="urlSelector" autocomplete="off">
+		<br>
+		<h3>Opacity</h3>
+		<input id="opacity" type="range" class="slider" min="0" max="99" value="0">
+		<br>
+        	<h3>Position</h3>
+		<input id="offsetX" type="number" placeholder="X">
+		<input id="offsetY" type="number" placeholder="Y">
+		<br>
+        	<h3>Scale</h3>
+		<input id="scaleImg" type="range" class="slider" min="1" max="100" value="0">
 	</details>	
 </font>
 
