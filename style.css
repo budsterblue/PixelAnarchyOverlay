@@ -1,0 +1,27 @@
+#overlay{
+    position: relative;
+    top: -3240px;
+    left: 0px;
+    pointer-events: none;
+    image-rendering: pixelated; 
+    visibility: hidden;
+    opacity: 0.75;
+}
+/*#overlayButtonGroup{
+    display: block;
+}
+#updateImageGroup{
+    display: block;
+}
+#opacityGroup{
+    display: block;
+}
+#offsetGroup{
+    display: block;
+}*/
+#offsetX{
+    width: 60px;
+}
+#offsetY{
+    width: 60px;
+}
