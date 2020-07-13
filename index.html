@@ -1,7 +1,7 @@
-<!-- Add this inside the <scale>-element-->
+<!-- Add this inside the scale element-->
 <img id="overlay" src="https://cdn.discordapp.com/attachments/716027937262010410/731617506128560148/canvas.png"></img>
 
-<!-- Add this inside the <sidenav>-element-->
+<!-- Add this inside before the logout button element-->
 <font color="white">
 	<details>
 	<summary id="overlaysummary">Overlay Options</summary>
@@ -11,6 +11,7 @@
 		<br>
 		<h3>Image</h3>
 	        <input id="fileSelector" type="file" accept="image/*">
+		<input type="button" value="Browse..." onclick="document.getElementById('fileSelector').click();" />
 		<br>
 		<input id="urlSelector" autocomplete="off">
 		<br>
